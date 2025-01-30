@@ -32,5 +32,3 @@ print("purchase price:", purchase_price, "provincial tax:", provincial_tax, "fed
 print(f"purchase price: ${purchase_price} provincial tax: ${provincial_tax:,.2f} federal tax: ${federal_tax:,.2f} total: ${total:,.2f}")
 
 # LISTS
-
-#nfn
