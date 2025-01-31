@@ -75,3 +75,28 @@ print(coins)
 
 coins.update({'loonie': 100, 'toonie': 200})
 print(coins)
+print(f"")
+
+# SETS
+
+set = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
+print(type(set))
+print(set)
+
+fives = {5, 10, 15, 20}
+print(fives)
+
+
+newset = set | fives
+print(newset)
+
+intersect = set.intersection(fives)
+print(intersect)
+
+# FIRST SET
+difference = set.difference(fives)
+print(difference)
+
+# SECOND SET
+difference = fives.difference(set)
+print(difference)
