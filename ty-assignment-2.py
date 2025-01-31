@@ -11,6 +11,7 @@ print("this year:", this_year, "type:", type(this_year))
 
 next_year = 2026
 print("next year:", next_year, "type:", type(next_year))
+print(f"")
 
 # MATHEMATICAL OPERATIONS
 
@@ -30,5 +31,21 @@ print("purchase price:", purchase_price, "provincial tax:", provincial_tax, "fed
 
 # FORMATTED PRICE
 print(f"purchase price: ${purchase_price} provincial tax: ${provincial_tax:,.2f} federal tax: ${federal_tax:,.2f} total: ${total:,.2f}")
+print(f"")
 
 # LISTS
+
+# List of integers
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(type(list))
+print(list) 
+
+list.insert(4, "Trey")
+print(list)
+
+list.remove(9)
+print(list)
+
+newlist = ["A", "B", "C"]
+newnewlist = list + newlist
+print(newnewlist)
