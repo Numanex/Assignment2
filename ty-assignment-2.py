@@ -49,3 +49,10 @@ print(list)
 newlist = ["A", "B", "C"]
 newnewlist = list + newlist
 print(newnewlist)
+print(f"")
+
+# TUPLES
+
+provinces = ('British Columbia', 'Manitoba', 'Alberta', 'Ontario')
+print(type(provinces))
+print(provinces)
