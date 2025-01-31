@@ -56,3 +56,22 @@ print(f"")
 provinces = ('British Columbia', 'Manitoba', 'Alberta', 'Ontario')
 print(type(provinces))
 print(provinces)
+print(f"")
+
+# DICTIONARIES
+
+coins = { 
+    'nickel': 0.05,
+    'dime': 0.10,
+    'quarter': 0.25
+}
+print(type(coins))
+print(coins)
+
+coins['nickel'] = 5
+coins['dime'] = 10
+coins['quarter'] = 25
+print(coins)
+
+coins.update({'loonie': 100, 'toonie': 200})
+print(coins)
