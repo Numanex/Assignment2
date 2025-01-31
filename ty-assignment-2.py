@@ -1,5 +1,6 @@
 # SIMPLE DATA TYPES
 
+# USING THE PRINT FUNCTION
 name = "Trey"
 print("name:", name, "type:", type(name))
 
@@ -35,14 +36,16 @@ print(f"")
 
 # LISTS
 
-# List of integers
+# LIST OF INTEGERS
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(type(list))
 print(list) 
 
+# INSERTING MY NAME
 list.insert(4, "Trey")
 print(list)
 
+# REMOVING 9 FROM THE LIST
 list.remove(9)
 print(list)
 
@@ -54,7 +57,7 @@ print(f"")
 # TUPLES
 
 provinces = ('British Columbia', 'Manitoba', 'Alberta', 'Ontario')
-print(type(provinces))
+print(type(provinces)) #SHOWING THE DATA TYPE
 print(provinces)
 print(f"")
 
@@ -65,38 +68,39 @@ coins = {
     'dime': 0.10,
     'quarter': 0.25
 }
-print(type(coins))
+print(type(coins)) # SHOWING THE DATA TYPE
 print(coins)
 
+# CHANGING THE VALUE TO A WHOLE NUMBER
 coins['nickel'] = 5
 coins['dime'] = 10
 coins['quarter'] = 25
 print(coins)
 
+# ADDING LOONIE AND TOONIE TO THE DICTIONARY
 coins.update({'loonie': 100, 'toonie': 200})
 print(coins)
 print(f"")
 
 # SETS
 
-set = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
-print(type(set))
-print(set)
+twos = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
+print(type(twos))
+print(twos)
 
 fives = {5, 10, 15, 20}
 print(fives)
 
-
-newset = set | fives
+# ADDING THE TWO SETS TOGETHER
+newset = twos | fives
 print(newset)
-
-intersect = set.intersection(fives)
+intersect = twos.intersection(fives)
 print(intersect)
 
 # FIRST SET
-difference = set.difference(fives)
+difference = twos.difference(fives) # GIVES THE DIFFERENCE
 print(difference)
 
 # SECOND SET
-difference = fives.difference(set)
+difference = fives.difference(twos) # GIVES THE DIFFERENCE
 print(difference)
